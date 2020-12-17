@@ -1,0 +1,26 @@
+#form{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sum, #price{
+    margin-bottom: 20px;
+}
+#message{
+    margin-top: 10px;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.button{
+    padding: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+.outerWrapper{
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerWrapper{
+    position: relative;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    padding: 30px;
+    background-color: #DF7E69;
+    border-radius: 20px;
+}
+.closeIcon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+}
+@keyframes smoothModal {
+    from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+}

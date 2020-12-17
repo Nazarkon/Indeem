@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.outerWrapper{
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.innerWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+button{
+    margin-top: 20px;
+    width: 100%;
+}
+.containerItem{
+
+}
+.outerContainerItem{
+    margin-top: 10px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+.itemButton{
+    margin-left: 10px;
+    width: 70px;
+    height: 20px;
+}

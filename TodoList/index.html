@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="outerWrapper">
+        <form class="innerWrapper todoForm" id="form">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" name="name" id="name">
+            <label for="surname">Surname</label>
+            <input type="text" placeholder="Surname" name="surname" id="surname">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email" name="email" id="email">
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+            <button type="submit" id="add">Save data</button>
+        </form>
+        <ul id="todo">
+
+        </ul>
+    </div>
+</body>
+<script src='./index.js'></script>
+</html>
